@@ -1,0 +1,24 @@
+{
+  "name": "knope-slackbot",
+  "version": "1.0.0",
+  "description": "A slackbot that dispenses top notch compliments",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "nodemon index.js"
+  },
+  "author": "Purvi Kanal",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ramda": "^0.24.1",
+    "slackbots": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
